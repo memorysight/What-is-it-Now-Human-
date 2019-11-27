@@ -1,0 +1,109 @@
+2019-08-05 20:28:46.552 EDT [28880] LOG:  listening on IPv6 address "::1", port 5432
+2019-08-05 20:28:46.552 EDT [28880] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-08-05 20:28:46.553 EDT [28880] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-08-05 20:28:46.567 EDT [28881] LOG:  database system was shut down at 2019-08-05 20:28:35 EDT
+2019-08-05 20:28:46.571 EDT [28880] LOG:  database system is ready to accept connections
+2019-08-05 20:28:58.506 EDT [28933] FATAL:  database "danielsmith" does not exist
+2019-08-05 20:29:11.751 EDT [28957] FATAL:  database "danielsmith" does not exist
+2019-08-05 20:29:18.001 EDT [28972] FATAL:  database "danielsmith" does not exist
+2019-08-05 20:30:15.907 EDT [29031] FATAL:  database "danielsmith" does not exist
+2019-08-05 20:30:56.067 EDT [29064] FATAL:  database "memorizer7_app7_development" does not exist
+2019-08-05 20:31:02.876 EDT [29054] ERROR:  relation "users" does not exist at character 15
+2019-08-05 20:31:02.876 EDT [29054] STATEMENT:  select * from users;
+2019-08-05 20:31:05.682 EDT [29075] FATAL:  database "memorizer7_app7_development" does not exist
+2019-08-05 20:31:09.289 EDT [29080] FATAL:  database "memorizer7_app7_development" does not exist
+2019-08-05 20:32:23.850 EDT [29128] FATAL:  database "danielsmith" does not exist
+2019-08-05 20:33:33.006 EDT [29207] FATAL:  database "memorizer7_app7_development" does not exist
+2019-08-05 20:34:30.560 EDT [29467] FATAL:  database "memorizer7_app7_development" does not exist
+2019-08-05 20:34:51.886 EDT [29506] FATAL:  database "memorizer7_app7_development" does not exist
+2019-08-05 20:37:50.790 EDT [29863] FATAL:  database "abstract_art_db" does not exist
+2019-08-05 20:38:03.105 EDT [29868] FATAL:  database "abstract_art_db" does not exist
+2019-08-05 20:38:32.929 EDT [29878] FATAL:  database "abstract_art_db" does not exist
+2019-08-05 20:38:51.810 EDT [29883] FATAL:  database "abstract_art_db" does not exist
+2019-08-05 20:58:52.621 EDT [30897] FATAL:  database "abstract_art_db" does not exist
+2019-08-05 20:58:59.810 EDT [30914] FATAL:  database "abstract_art_db" does not exist
+2019-08-08 14:06:27.638 EDT [88453] FATAL:  database "FulllSTackApp4_development" does not exist
+2019-08-08 14:06:52.948 EDT [88463] ERROR:  relation "users" does not exist at character 15
+2019-08-08 14:06:52.948 EDT [88463] STATEMENT:  select * from users;
+2019-08-08 14:07:04.362 EDT [88463] ERROR:  relation "users" does not exist at character 15
+2019-08-08 14:07:04.362 EDT [88463] STATEMENT:  select * from users;
+2019-08-13 08:00:22.917 EDT [28886] LOG:  stats_timestamp 2019-08-13 08:00:23.120772-04 is later than collector's time 2019-08-13 08:00:22.911288-04 for database 0
+2019-08-16 23:38:11.903 EDT [99748] FATAL:  database "book_app_development" does not exist
+2019-08-19 21:24:34.013 EDT [15765] FATAL:  database "rails_react_auth2_development" does not exist
+2019-08-19 21:25:03.490 EDT [15790] FATAL:  database "rails_react_auth2_development" does not exist
+2019-08-29 14:47:03.644 EDT [2368] ERROR:  relation "users" does not exist at character 15
+2019-08-29 14:47:03.644 EDT [2368] STATEMENT:  select * from users;
+2019-08-29 14:47:19.345 EDT [2368] ERROR:  syntax error at or near ":" at character 21
+2019-08-29 14:47:19.345 EDT [2368] STATEMENT:  select * from users
+	:
+	;
+2019-08-29 14:47:27.274 EDT [2368] ERROR:  relation "users" does not exist at character 15
+2019-08-29 14:47:27.274 EDT [2368] STATEMENT:  select * from users;
+2019-08-29 14:48:09.284 EDT [2368] ERROR:  relation "users" does not exist at character 15
+2019-08-29 14:48:09.284 EDT [2368] STATEMENT:  select * from users;
+2019-08-29 14:48:24.341 EDT [2368] ERROR:  relation "users" does not exist at character 15
+2019-08-29 14:48:24.341 EDT [2368] STATEMENT:  select * from users;
+2019-09-06 14:30:53.081 EDT [76689] ERROR:  database "react-rails-auth_app_development" already exists
+2019-09-06 14:30:53.081 EDT [76689] STATEMENT:  CREATE DATABASE "react-rails-auth_app_development" ENCODING = 'unicode'
+2019-09-06 14:30:53.097 EDT [76690] ERROR:  database "react-rails-auth_app_test" already exists
+2019-09-06 14:30:53.097 EDT [76690] STATEMENT:  CREATE DATABASE "react-rails-auth_app_test" ENCODING = 'unicode'
+2019-09-06 14:32:37.772 EDT [76833] ERROR:  syntax error at or near "/" at character 1
+2019-09-06 14:32:37.772 EDT [76833] STATEMENT:  /l
+	select * from user;
+2019-09-06 14:40:21.602 EDT [76833] ERROR:  null value in column "created_at" violates not-null constraint
+2019-09-06 14:40:21.602 EDT [76833] DETAIL:  Failing row contains (1, Dan, smithdaniel@live.com, euclid321, null, null).
+2019-09-06 14:40:21.602 EDT [76833] STATEMENT:  INSERT into users (username, email, password_digest) VALUES ('Dan','smithdaniel@live.com', 'euclid321');
+2019-09-06 14:40:47.418 EDT [76833] ERROR:  INSERT has more expressions than target columns at character 105
+2019-09-06 14:40:47.418 EDT [76833] STATEMENT:  INSERT into users (username, email, password_digest) VALUES ('Dan','smithdaniel@live.com', 'euclid321', null, null);
+2019-09-06 14:41:14.332 EDT [76833] ERROR:  null value in column "created_at" violates not-null constraint
+2019-09-06 14:41:14.332 EDT [76833] DETAIL:  Failing row contains (2, Dan, smithdaniel@live.com, euclid321, null, null).
+2019-09-06 14:41:14.332 EDT [76833] STATEMENT:  INSERT into users (username, email, password_digest) VALUES ('Dan','smithdaniel@live.com', 'euclid321');
+2019-09-06 14:41:37.912 EDT [76833] ERROR:  null value in column "created_at" violates not-null constraint
+2019-09-06 14:41:37.912 EDT [76833] DETAIL:  Failing row contains (3, Dan, smithdaniel@live.com, euclid321, null, null).
+2019-09-06 14:41:37.912 EDT [76833] STATEMENT:  INSERT into users (username, email, password_digest) VALUES ('Dan','smithdaniel@live.com', 'euclid321');
+2019-09-06 16:56:19.618 EDT [82698] ERROR:  database "react-rails-auth_app_development" already exists
+2019-09-06 16:56:19.618 EDT [82698] STATEMENT:  CREATE DATABASE "react-rails-auth_app_development" ENCODING = 'unicode'
+2019-09-06 16:56:19.631 EDT [82699] ERROR:  database "react-rails-auth_app_test" already exists
+2019-09-06 16:56:19.631 EDT [82699] STATEMENT:  CREATE DATABASE "react-rails-auth_app_test" ENCODING = 'unicode'
+2019-09-06 16:57:15.940 EDT [82735] ERROR:  relation "username" does not exist at character 15
+2019-09-06 16:57:15.940 EDT [82735] STATEMENT:  SELECT * from username
+	;
+2019-09-07 19:34:01.503 EDT [28886] LOG:  stats_timestamp 2019-09-07 19:34:02.101276-04 is later than collector's time 2019-09-07 19:34:01.501456-04 for database 16386
+2019-09-19 11:01:48.569 EDT [28886] LOG:  stats_timestamp 2019-09-19 11:01:48.804913-04 is later than collector's time 2019-09-19 11:01:48.566903-04 for database 0
+2019-09-19 15:29:11.250 EDT [52304] FATAL:  database "react-auth-app2019_development" does not exist
+2019-09-19 15:29:17.316 EDT [52325] FATAL:  database "react-auth-app2019_development" does not exist
+2019-09-19 15:30:09.745 EDT [52367] FATAL:  database "react-react-auth_app2019_development" does not exist
+2019-09-19 15:30:20.540 EDT [52378] FATAL:  database "react-auth_app2019_development" does not exist
+2019-09-19 16:19:21.587 EDT [57520] ERROR:  database "react-auth-app_development" already exists
+2019-09-19 16:19:21.587 EDT [57520] STATEMENT:  CREATE DATABASE "react-auth-app_development" ENCODING = 'unicode'
+2019-09-19 16:19:21.600 EDT [57521] ERROR:  database "react-auth-app_test" already exists
+2019-09-19 16:19:21.600 EDT [57521] STATEMENT:  CREATE DATABASE "react-auth-app_test" ENCODING = 'unicode'
+2019-09-19 16:48:52.005 EDT [60767] ERROR:  database "react-auth-app_development" already exists
+2019-09-19 16:48:52.005 EDT [60767] STATEMENT:  CREATE DATABASE "react-auth-app_development" ENCODING = 'unicode'
+2019-09-19 16:48:52.017 EDT [60768] ERROR:  database "react-auth-app_test" already exists
+2019-09-19 16:48:52.017 EDT [60768] STATEMENT:  CREATE DATABASE "react-auth-app_test" ENCODING = 'unicode'
+2019-10-05 07:23:47.659 EDT [28886] LOG:  stats_timestamp 2019-10-05 07:23:47.867894-04 is later than collector's time 2019-10-05 07:23:47.656183-04 for database 1
+2019-10-05 07:25:34.834 EDT [28886] LOG:  stats_timestamp 2019-10-05 07:25:34.870912-04 is later than collector's time 2019-10-05 07:25:34.834371-04 for database 0
+2019-10-14 16:47:08.009 EDT [28886] LOG:  stats_timestamp 2019-10-14 16:47:08.179325-04 is later than collector's time 2019-10-14 16:47:08.006616-04 for database 16384
+2019-10-15 11:47:26.923 EDT [28886] LOG:  stats_timestamp 2019-10-15 11:47:27.099767-04 is later than collector's time 2019-10-15 11:47:26.922356-04 for database 16556
+2019-10-15 13:51:57.933 EDT [28886] LOG:  stats_timestamp 2019-10-15 13:51:58.107109-04 is later than collector's time 2019-10-15 13:51:57.933809-04 for database 16615
+2019-10-21 05:05:38.582 EDT [28886] LOG:  stats_timestamp 2019-10-21 05:05:39.217498-04 is later than collector's time 2019-10-21 05:05:38.578314-04 for database 16902
+2019-10-29 13:04:01.732 EDT [28886] LOG:  stats_timestamp 2019-10-29 13:04:02.105954-04 is later than collector's time 2019-10-29 13:04:01.73086-04 for database 16557
+2019-11-16 02:11:03.819 EST [28886] LOG:  stats_timestamp 2019-11-16 02:11:03.856824-05 is later than collector's time 2019-11-16 02:11:03.808501-05 for database 16693
+2019-11-20 15:50:45.940 EST [28886] LOG:  stats_timestamp 2019-11-20 15:50:46.136616-05 is later than collector's time 2019-11-20 15:50:45.936001-05 for database 0
+2019-11-24 09:23:42.843 EST [29770] FATAL:  role "_development" does not exist
+2019-11-24 09:24:30.217 EST [29817] FATAL:  database "react_react_auth2_development" does not exist
+2019-11-24 09:24:57.588 EST [29832] ERROR:  syntax error at or near "/" at character 1
+2019-11-24 09:24:57.588 EST [29832] STATEMENT:  /l
+	select * from users;
+2019-11-24 09:25:13.333 EST [29832] ERROR:  syntax error at or near "select" at character 21
+2019-11-24 09:25:13.333 EST [29832] STATEMENT:  select * from users
+	select * from user;
+2019-11-26 12:57:31.414 EST [55606] FATAL:  database "hospital_app_development" does not exist
+2019-11-26 12:59:04.610 EST [56193] FATAL:  database "hospital__app5_development" does not exist
+2019-11-26 13:03:01.875 EST [56955] FATAL:  database "hospital_app4_development" does not exist
+2019-11-26 13:03:29.184 EST [57031] FATAL:  database "hospital_app4_development" does not exist
+2019-11-26 13:04:30.279 EST [57064] FATAL:  database "hospital_app4_development" does not exist
+2019-11-26 13:07:43.695 EST [57199] FATAL:  database "hospital_app4_development" does not exist
+2019-11-26 13:08:30.505 EST [57309] FATAL:  database "hospital_app4_development" does not exist
+2019-11-26 13:08:41.661 EST [57354] FATAL:  database "hospital_app4_development" does not exist

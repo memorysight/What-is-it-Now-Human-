@@ -1,0 +1,104 @@
+.xt0{fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
+	.xt1{fill:url(#SVGID_2_);}
+	.xt2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.xt3{fill:url(#SVGID_3_);stroke:#000000;stroke-miterlimit:10;}
+	.xt4{fill:#000D8B;stroke:#000000;stroke-miterlimit:10;}
+	.xt5{fill:#000D8B;}
+	.xt6{enable-background:new    ;}
+	.xt7{fill:#0C7E80;}
+	.xt8{fill:#0E9B9D;}
+	.xt9{fill:#14DBDF;}
+	.xt10{fill:#17807E;}
+	.xt11{fill:#1C9D9B;}
+	.xt12{fill:#28DFDC;}
+	.xt13{fill:#73FDFF;stroke:#000000;stroke-miterlimit:10;}
+	.xt14{fill:#009EB9;stroke:#000000;stroke-miterlimit:10;}
+	.xt15{fill:#17FFF5;stroke:#000000;stroke-miterlimit:10;}
+	.xt16{fill:#00B1D0;stroke:#000000;stroke-miterlimit:10;}
+	.xt17{fill:#05005C;stroke:#000000;stroke-miterlimit:10;}
+	.xt18{fill:#000BFF;stroke:#000000;stroke-miterlimit:10;}
+	.xt19{fill:#FFFFFF;}
+	.xt20{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+    .xt21{fill:#2EFFFC;stroke:#000000;stroke-miterlimit:10;}
+    
+
+
+   @keyframes float{
+    from {
+        
+        transform: rotateY(0deg) rotate(0deg);
+    }
+    
+    to {
+        
+        
+        transform: rotateY(15deg) rotate(5deg);
+    }
+}
+
+ @keyframes float2{
+    from {
+        
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    
+    to {
+        
+        
+        transform: rotateY(35deg) rotateX(35deg);
+    }
+}
+
+
+
+#blue {
+    fill: green;
+    stroke-dasharray: 650;
+    stroke-dashoffset:-650;
+    animation: float 3s alternate infinite;
+    transform-origin: 75% 50%;
+    
+}
+
+.qbert{
+    
+      animation: float 2s alternate infinite;
+  }
+    
+
+
+#qbert2{
+    
+      animation: float2 3s alternate infinite;
+  }
+    
+    
+    
+.outline{
+    stroke: red;
+    stroke-width: 8px;
+    stroke-dashoffset: -2226;
+    stroke-dasharray:2226;
+    animation: draw 1s ease-in-out infinite;
+    
+}
+
+@keyframes draw{
+    0%{
+        stroke-dasharray:-2226;
+    }
+    25%{
+        stroke:green;
+        fill: yellow;
+    }
+    50%{
+        stroke: blue;
+        fill: white;
+    }
+    100%{
+        stroke-dashoffset:0;
+        stroke: green;
+        fill: blue;
+    }
+}
+
